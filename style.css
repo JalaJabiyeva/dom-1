@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.calculator{
+    width: 300px;
+    height: 300px;
+    border: 5px solid #3f07dc;
+    border-radius: 8px; 
+    background-color: #d2d9fd;
+}
+
+
+h1{
+    text-align: center;
+    color: #1e0467;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.plus{
+    width: 60px;
+    height: 60px;
+    border: 3px solid #446091;
+    border-radius: 6px;
+    margin-left: 45px;   
+    background-color: #83a3d9;
+    color: #ffe3ff;
+    font-size: 25px;
+    cursor: pointer;
+   
+}
+
+.subtraction{
+    width: 60px;
+    height: 60px;
+    border: 3px solid #446091;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-left: 65px;   
+    background-color: #83a3d9;
+    color: #ffe3ff;
+    font-size: 25px;
+    cursor: pointer; 
+}
+
+
+.multiplication{
+    width: 60px;
+    height: 60px;
+    border: 3px solid #446091;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-left: 45px;   
+    background-color: #83a3d9;
+    color: #ffe3ff;
+    font-size: 30px;
+    cursor: pointer; 
+}
+.division{
+    width: 60px;
+    height: 60px;
+    border: 3px solid #446091;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-left: 65px;   
+    background-color: #83a3d9;
+    color: #ffe3ff;
+    font-size: 25px;
+    cursor: pointer; 
+}
+
+
+.answer button{
+    width: 70px;
+    height: 70px;
+    border: 2px solid #446091;
+    border-radius: 2px;
+    margin-top: 200px;
+    background-color: #eff1f3;
+    cursor: pointer; 
+}
